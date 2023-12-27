@@ -1,0 +1,16 @@
+{
+	"name": "prec2",
+	"description": "two-digit-precision arithmatics",
+	"version": "0.1.0-1",
+	"main": "lib/index.js",
+	"scripts": {
+		"start": "node lib/cli",
+		"test": "npx nslibmgr test"
+	},
+	"author": "Prokop Schield",
+	"devDependencies": {
+		"@types/node": ">=18"
+	},
+	"keywords": [],
+	"license": "GPL-3.0-or-later"
+}
