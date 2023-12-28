@@ -1,7 +1,7 @@
 export type real = bigint | number | string;
 
 export const factory = (precision: real = 2) => {
-	const multiplier = Number(precision) * 100;
+	const multiplier = 10 ** Number(precision);
 	const multiplier_bi = BigInt(multiplier);
 
 	const bi = (arg: real): bigint => {

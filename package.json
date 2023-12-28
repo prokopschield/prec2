@@ -1,7 +1,7 @@
 {
 	"name": "prec2",
 	"description": "two-digit-precision arithmatics",
-	"version": "0.1.0-1",
+	"version": "0.1.0-2",
 	"main": "lib/index.js",
 	"scripts": {
 		"start": "node lib/cli",
